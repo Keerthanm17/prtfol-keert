@@ -97,10 +97,22 @@ const Projects = () => {
                     <project.icon className="h-6 w-6 text-white" />
                   </div>
                   <div className="flex gap-2 opacity-0 group-hover:opacity-100 transition-smooth">
-                    <Button variant="ghost" size="icon" className="h-8 w-8">
+                    <Button 
+                      variant="ghost" 
+                      size="icon" 
+                      className="h-8 w-8"
+                      onClick={() => project.github && project.github !== "#" ? window.open(project.github, '_blank') : null}
+                      disabled={!project.github || project.github === "#"}
+                    >
                       <Github className="h-4 w-4" />
                     </Button>
-                    <Button variant="ghost" size="icon" className="h-8 w-8">
+                    <Button 
+                      variant="ghost" 
+                      size="icon" 
+                      className="h-8 w-8"
+                      onClick={() => project.link && project.link !== "#" ? window.open(project.link, '_blank') : null}
+                      disabled={!project.link || project.link === "#"}
+                    >
                       <ExternalLink className="h-4 w-4" />
                     </Button>
                   </div>
@@ -143,11 +155,23 @@ const Projects = () => {
 
                 {/* Actions */}
                 <div className="flex gap-3">
-                  <Button variant="default" size="sm" className="flex-1">
+                  <Button 
+                    variant="default" 
+                    size="sm" 
+                    className="flex-1"
+                    onClick={() => project.link && project.link !== "#" ? window.open(project.link, '_blank') : null}
+                    disabled={!project.link || project.link === "#"}
+                  >
                     <ExternalLink className="mr-2 h-4 w-4" />
                     View Project
                   </Button>
-                  <Button variant="outline" size="sm" className="flex-1">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="flex-1"
+                    onClick={() => project.github && project.github !== "#" ? window.open(project.github, '_blank') : null}
+                    disabled={!project.github || project.github === "#"}
+                  >
                     <Github className="mr-2 h-4 w-4" />
                     Source Code
                   </Button>
