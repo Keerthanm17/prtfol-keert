@@ -18,7 +18,7 @@ const Projects = () => {
       ],
       icon: Bot,
       gradient: "from-primary to-primary-glow",
-      link: "https://smart-heritage.netlify.app/",
+      link: "https://heritage-guide.netlify.app/",
       github: "https://github.com/Keerthanm17/heritage-guide"
     },
     {
