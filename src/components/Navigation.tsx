@@ -41,7 +41,7 @@ const Navigation = () => {
             className="text-xl font-bold cursor-pointer hover:text-primary transition-smooth"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            <span className="text-foreground">Keerthan</span>
+            <span className="text-foreground">Keerthan M</span>
             <span className="text-primary">.</span>
           </div>
 

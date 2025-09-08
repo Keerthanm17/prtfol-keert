@@ -16,7 +16,7 @@ const Footer = () => {
           {/* About */}
           <div className="md:col-span-1">
             <div className="text-xl font-bold mb-4">
-              <span className="text-foreground">Keerthan</span>
+              <span className="text-foreground">Keerthan M</span>
               <span className="text-primary">.</span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
