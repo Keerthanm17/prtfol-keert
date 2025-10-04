@@ -16,7 +16,7 @@ const Contact = () => {
       icon: Phone,
       label: "Mobile",
       value: "+91-9449634240",
-      action: () => window.open('tel:+919140631240'),
+      action: () => window.open('+91-9449634240'),
       gradient: "from-success to-success/80"
     },
     {

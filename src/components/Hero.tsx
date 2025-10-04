@@ -74,11 +74,7 @@ const Hero = () => {
           </div>
 
           {/* Key Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
-            <div className="text-center animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
-              <div className="text-3xl font-bold text-primary mb-2">8.95</div>
-              <div className="text-sm text-muted-foreground">CGPA</div>
-            </div>
+          <div className="flex justify-center items-center gap-16">
             <div className="text-center animate-slide-in-left" style={{ animationDelay: '0.4s' }}>
               <div className="text-3xl font-bold text-accent mb-2">4</div>
               <div className="text-sm text-muted-foreground">Projects</div>
