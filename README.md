@@ -1,4 +1,4 @@
-1## Project info
+## Project info
 
 **URL**: https://keerthanm.netlify.app
 
