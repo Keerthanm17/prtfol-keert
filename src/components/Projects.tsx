@@ -22,6 +22,22 @@ const Projects = () => {
       github: "https://github.com/Keerthanm17/heritage-guide"
     },
     {
+      title: "Customer Churn Prediction MOdel",
+      description: "A predictive analytics platform that utilizes machine learning algorithms to identify potential customer churn, enabling businesses to implement proactive retention strategies.",
+      tech: ["Python", "Scikit-learn", "Pandas", "Flask", "Data Visualization"],
+      features: [
+        "Machine learning model for churn prediction",
+        "Data preprocessing and feature engineering",
+        "Interactive data visualization dashboard",
+        "RESTful API for model integration",
+        "Comprehensive reporting tools"
+      ],
+      icon: Bot,
+      gradient: "from-secondary to-secondary-glow",
+      link: "https://churn-app.netlify.app/",
+      github: "https://github.com/Keerthanm17/churn"
+      },
+    {
       title: "Smart Agriculture System with IoT",
       description: "An IoT-based smart agriculture monitoring system that integrates Arduino sensors with cloud infrastructure to optimize crop management through real-time data analytics.",
       tech: ["Arduino", "Node.js", "MQTT", "IoT", "Cloud", "Data Analytics"],
@@ -36,6 +52,22 @@ const Projects = () => {
       gradient: "from-success to-success/80",
       link: "https://soil-crop.netlify.app/",
       github: "https://github.com/Keerthanm17/Crop"
+    },
+     {
+      title: "Encryption & Decryption Security Suite",
+      description: "A comprehensive web-based cryptographic toolkit implementing multiple encryption algorithms including AES, DES, SHA, and PBKDF2 with an intuitive user interface.",
+      tech: ["Cryptography", "JavaScript", "Web Security", "AES", "DES", "SHA"],
+      features: [
+        "Multiple encryption algorithms (AES, DES, SHA)",
+        "PBKDF2 key derivation function",
+        "Real-time encryption/decryption",
+        "Secure key generation",
+        "Educational cryptography examples"
+      ],
+      icon: Shield,
+      gradient: "from-destructive to-destructive/80",
+      link: "https://encr-decr.netlify.app/",
+      github: "https://github.com/Keerthanm17/encr-"
     },
     {
       title: "Event Management System with AI Assistant",
@@ -52,23 +84,8 @@ const Projects = () => {
       gradient: "from-accent to-accent-glow",
       link: "#",
       github: "#"
-    },
-    {
-      title: "Encryption & Decryption Security Suite",
-      description: "A comprehensive web-based cryptographic toolkit implementing multiple encryption algorithms including AES, DES, SHA, and PBKDF2 with an intuitive user interface.",
-      tech: ["Cryptography", "JavaScript", "Web Security", "AES", "DES", "SHA"],
-      features: [
-        "Multiple encryption algorithms (AES, DES, SHA)",
-        "PBKDF2 key derivation function",
-        "Real-time encryption/decryption",
-        "Secure key generation",
-        "Educational cryptography examples"
-      ],
-      icon: Shield,
-      gradient: "from-destructive to-destructive/80",
-      link: "https://encr-decr.netlify.app/",
-      github: "https://github.com/Keerthanm17/encr-"
     }
+   
   ];
 
   return (

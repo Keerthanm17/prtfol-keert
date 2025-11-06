@@ -76,7 +76,7 @@ const Hero = () => {
           {/* Key Stats */}
           <div className="flex justify-center items-center gap-16">
             <div className="text-center animate-slide-in-left" style={{ animationDelay: '0.4s' }}>
-              <div className="text-3xl font-bold text-accent mb-2">4</div>
+              <div className="text-3xl font-bold text-accent mb-2">5+</div>
               <div className="text-sm text-muted-foreground">Projects</div>
             </div>
             <div className="text-center animate-slide-in-left" style={{ animationDelay: '0.6s' }}>
